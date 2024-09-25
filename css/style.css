@@ -58,7 +58,7 @@ body {
 .pos-absolute{position: absolute;}
 
 .header {
-    background-image: url(/images/front-page-header.jpg);
+    background-image: url(images/front-page-header.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
