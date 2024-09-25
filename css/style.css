@@ -2,12 +2,12 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap'); */
 @font-face {
     font-family: 'poppins';
-    src: url(fonts/Poppins-ExtraBold.ttf);
+    src: url(../fonts/Poppins-ExtraBold.ttf);
     font-weight: 700;
 }
 @font-face {
     font-family: 'Lato';
-    src: url(fonts/Lato-Regular.ttf);
+    src: url(../fonts/Lato-Regular.ttf);
     font-weight: 400;
 }
 * {
@@ -58,7 +58,7 @@ body {
 .pos-absolute{position: absolute;}
 
 .header {
-    background-image: url(images/front-page-header.jpg);
+    background-image: url(../images/front-page-header.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -262,7 +262,7 @@ span.circle {
     transform: rotateZ(180deg);
 }
 .project {
-    background-image: url(images/pattern.png);
+    background-image: url(../images/pattern.png);
     background-repeat: repeat;
     padding-top: 65px;
 }
@@ -303,7 +303,7 @@ span.circle {
 }
 
 .testimonials {
-    background-image: url(images/testiomnials-background.jpg);
+    background-image: url(../images/testiomnials-background.jpg);
     padding-top: 65px;
 }
 
@@ -465,7 +465,7 @@ span.circle {
 .post:hover img {filter: contrast(1.3);transform: scale(1.1);}
 .post h3:hover {color: #f1d204;}
 .numbers {
-    background-image: url(images/numbers\ section\ background.jpg);
+    background-image: url(../images/numbers\ section\ background.jpg);
     background-attachment: fixed;
     background-size: cover;
     font-family: 'poppins';
@@ -487,7 +487,7 @@ span.circle {
     border-right: none;
 }
 .team {
-    background-image: url(images/pattern.png);
+    background-image: url(../images/pattern.png);
     background-repeat: repeat;
     padding-top: 65px;
     padding-bottom: 85px;
