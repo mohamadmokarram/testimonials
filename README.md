@@ -4,7 +4,11 @@
 
 ![Image](https://github.com/user-attachments/assets/d2f6e705-91ba-4955-9b27-0e310c17bae2)
 
-- [Demo Project](https://mohamadmokarram.github.io/testimonials/)
+<p>If you are interested in the latest articles in your industry,you can have latest news section</p>
+
+![Image](https://github.com/user-attachments/assets/37b7cd32-d90e-45cb-b6c7-8b1a26fe648a)
+
+<p align="center"><a href="https://mohamadmokarram.github.io/testimonials/">Demo Project</a></p>
 
 - Developed by Mohamad Mokarram
 
