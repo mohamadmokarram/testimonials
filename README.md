@@ -1,4 +1,4 @@
-# This is a great one-page theme, perfect for developers and designers but also for someone who just wants a new website for his business. Try it now!
+<p>This is a great one-page theme, perfect for developers and designers but also for someone who just wants a new website for his business. Try it now!</p>
 
 ![Image](https://github.com/user-attachments/assets/d2f6e705-91ba-4955-9b27-0e310c17bae2)
 
