@@ -550,6 +550,9 @@ span.circle {
 .social a {
     color: #8c9597;
     margin: 7px;
+    >i{
+        font-size: 25px;
+    }
 }
 .social a:hover {
     color: black;
@@ -708,3 +711,5 @@ ul.nav li a {
 .colorfulLine {
     transition-duration: 2s;
 }
+
+
