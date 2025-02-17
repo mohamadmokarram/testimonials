@@ -8,6 +8,7 @@
     <script defer src="scripts/index.js" type="module"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="#" />
+    <link rel="stylesheet" href="css/fontello.css" />
     <link
       rel="stylesheet"
       href="assets/font-awesome-4.7.0/css/font-awesome.min.css"
@@ -20,6 +21,7 @@
     <link rel="stylesheet" href="css/splide.min.css" />
   </head>
   <body>
+    <!-- Header section -->
     <div class="header">
       <span class="material-symbols-outlined"> menu </span>
       <div class="middle">
@@ -65,10 +67,13 @@
         </div>
       </div>
     </div>
+    <!-- header-end -->
+
+    <!-- about section -->
     <div class="about">
       <div class="middle">
-        <h3>About</h3>
-        <p class="col-xs-12">
+        <h3 class="getup">About</h3>
+        <p class="col-xs-12 getup">
           It is an amazng one-page theme with great features that offers an
           incredible experience. It is easy to install, make changes, adapt for
           your business. A modern design with clean lines and styling for a wide
@@ -121,9 +126,12 @@
         </div>
       </div>
     </div>
+    <!-- about-end -->
+
+    <!-- projects section -->
     <div class="project">
-      <h3>projects</h3>
-      <p>You'll love our work. Check it out!</p>
+      <h3 class="teamwork">projects</h3>
+      <p class="teamwork">You'll love our work. Check it out!</p>
       <div class="project-images">
         <div class="row">
           <div class="col-xs-6 col-3 no-padding pos-relative">
@@ -173,6 +181,8 @@
         </div>
       </div>
     </div>
+    <!-- projects-end -->
+
     <div class="testimonials">
       <h3>Testimonials</h3>
       <div class="middle worker-container">
@@ -249,15 +259,17 @@
         </div>
       </div>
     </div>
+
+    <!-- services section -->
     <div class="services">
       <div class="middle">
-        <h3>Services</h3>
-        <p>
+        <h3 class="teamwork">Services</h3>
+        <p class="teamwork">
           In order to help you grow your business, our carefully selected
           experts can advise you in in the following areas:
         </p>
         <div class="row">
-          <div class="col-xs-12 col-4 fl-left">
+          <div class="col-xs-12 col-4 fl-left" data-delay="0">
             <i class="fa fa-pencil"></i>
             <h3>Web Design</h3>
             <p>
@@ -266,7 +278,7 @@
               dapibus porttitor at in mauris. Pellentesque commodo...
             </p>
           </div>
-          <div class="col-xs-12 col-4 fl-left">
+          <div class="col-xs-12 col-4 fl-left" data-delay="300">
             <i class="fa fa-code"></i>
             <h3>WEB DEVELOPMENT</h3>
             <p>
@@ -275,7 +287,7 @@
               dapibus porttitor at in mauris. Pellentesque commodo...
             </p>
           </div>
-          <div class="col-xs-12 col-4 fl-left">
+          <div class="col-xs-12 col-4 fl-left" data-delay="600">
             <i class="fa fa-search"></i>
             <h3>SEO Analisys</h3>
             <p>
@@ -287,6 +299,9 @@
         </div>
       </div>
     </div>
+    <!-- services-end -->
+
+    <!-- news section -->
     <div class="latest-news">
       <h3>Latest News</h3>
       <p>
@@ -369,6 +384,8 @@
         </div>
       </div>
     </div>
+    <!-- news-end -->
+
     <div class="numbers">
       <div class="middle">
         <div class="row">
@@ -387,14 +404,16 @@
         </div>
       </div>
     </div>
+
+    <!-- team section -->
     <div class="team">
-      <h3>Team</h3>
-      <p>
+      <h3 class="teamwork">Team</h3>
+      <p class="teamwork">
         Meet the people that are going to take your business to the next level.
       </p>
       <div class="middle">
         <div class="row">
-          <div class="worker col-6 col-xs-12 col-lg-4">
+          <div class="worker col-6 col-xs-12 col-lg-4 teamwork">
             <div class="row">
               <div class="profile col-4">
                 <img src="images/person1.jpg" alt="mark lawrance" />
@@ -409,7 +428,7 @@
               </div>
             </div>
           </div>
-          <div class="worker col-6 col-xs-12 col-lg-4">
+          <div class="worker col-6 col-xs-12 col-lg-4 teamwork">
             <div class="row">
               <div class="profile col-4">
                 <img src="images/person2.jpg" alt="Jane Stenton" />
@@ -426,7 +445,7 @@
               </div>
             </div>
           </div>
-          <div class="worker col-6 col-xs-12 col-lg-4">
+          <div class="worker col-6 col-xs-12 col-lg-4 teamwork">
             <div class="row">
               <div class="profile fl-left col-4">
                 <img src="images/mike-muller-127x127.jpg" alt="John Smith" />
@@ -444,6 +463,8 @@
         </div>
       </div>
     </div>
+    <!-- team-end -->
+
     <div class="contactus">
       <h3>Contact me</h3>
       <div class="middle">
@@ -454,7 +475,7 @@
             </div>
             <div class="holeaddress col-9 no-padding fl-left">
               <p>Iran , Tehran</p>
-<!--               <p>London, UK</p> -->
+              <!--               <p>London, UK</p> -->
             </div>
           </div>
           <div class="c-support row no-padding col-xs-12 col-md-6 col-lg-5">
@@ -467,15 +488,25 @@
             </div>
           </div>
           <div class="social row no-padding">
-            <a href="https://github.com/mohamadmokarram" target="_blank"> <i class="fa fa-github"></i> </a
-            ><a href="https://www.instagram.com/mokaram_frontdeveloper/" target="_blank"> <i class="fa fa-instagram"></i> </a
-            ><a href="https://www.linkedin.com/in/mohamad-mokaram-05b873200/" target="_blank">
+            <a href="https://github.com/mohamadmokarram" target="_blank">
+              <i class="fa fa-github"></i> </a
+            ><a
+              href="https://www.instagram.com/mokaram_frontdeveloper/"
+              target="_blank"
+            >
+              <i class="fa fa-instagram"></i> </a
+            ><a
+              href="https://www.linkedin.com/in/mohamad-mokaram-05b873200/"
+              target="_blank"
+            >
               <i class="fa fa-linkedin"></i>
             </a>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- footer section -->
     <footer>
       <div class="middle">
         <div class="row">
@@ -503,7 +534,41 @@
         </div>
       </div>
     </footer>
+    <!-- footer-end -->
+
+    <div class="profile-container">
+      <figure>
+        <img src="images/black&white-profile.jpg" alt="" />
+        <div class="profile-links">
+          <a
+            href="https://www.instagram.com/mokaram_frontdeveloper/"
+            target="_blank"
+          >
+            <span class="icon-instagram"></span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mohamad-mokaram-05b873200/"
+            target="_blank"
+          >
+            <span class="icon-linkedin-squared"></span>
+          </a>
+          <a href="https://github.com/mohamadmokarram" target="_blank">
+            <span class="icon-github-circled"></span>
+          </a>
+        </div>
+        <div class="developer">
+          <span>D</span>
+          <span>e</span>
+          <span>v</span>
+          <span>e</span>
+          <span>l</span>
+          <span>o</span>
+          <span>p</span>
+          <span>e</span>
+          <span>r</span>
+        </div>
+      </figure>
+    </div>
     <script src="scripts/splide.min.js"></script>
-    
   </body>
 </html>
