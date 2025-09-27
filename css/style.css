@@ -1,11 +1,11 @@
 @font-face {
   font-family: "poppins";
-  src: url(../font/Poppins-ExtraBold.ttf);
+  src: url("../font/Poppins-ExtraBold.ttf");
   font-weight: 700;
 }
 @font-face {
   font-family: "Lato";
-  src: url(../font/Lato-Regular.ttf);
+  src: url("../font/Lato-Regular.ttf");
   font-weight: 400;
 }
 * {
@@ -344,7 +344,7 @@ span.circle {
 }
 
 .testimonials {
-  background-image: url(../images/testiomnials-background.jpg);
+  background-image: url("../images/testiomnials-background.jpg");
   padding-top: 65px;
 }
 
@@ -566,7 +566,7 @@ span.circle {
   color: #f1d204;
 }
 .numbers {
-  background-image: url(../images/numbers\ section\ background.jpg);
+  background-image: url("../images/numbers\ section\ background.jpg");
   background-attachment: fixed;
   background-size: cover;
   font-family: "poppins";
@@ -588,7 +588,7 @@ span.circle {
   border-right: none;
 }
 .team {
-  background-image: url(../images/pattern.png);
+  background-image: url("../images/pattern.png");
   background-repeat: repeat;
   padding-top: 65px;
   padding-bottom: 85px;
@@ -754,8 +754,14 @@ footer ul li a::before {
 footer ul li a:hover {
   color: #6a4d8a;
 }
-
+/* 
+//////////////////////////////////////////////mobile//////////////
+//////////////////////////////////////////////mobile//////////////
+*/
 @media screen and (max-width: 575px) {
+  .header {
+    object-fit: initial;
+  }
   .header p {
     width: 100%;
     margin-bottom: 1rem;
@@ -1018,4 +1024,10 @@ figure {
 
 .timeline-scroll {
   animation-timeline: scroll();
+}
+
+@media (max-width: 575px) {
+  .profile-container {
+    display: none;
+  }
 }
