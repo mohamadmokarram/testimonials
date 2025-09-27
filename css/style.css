@@ -63,21 +63,6 @@ body {
   animation-range-end: 600px;
 }
 
-.header-animation {
-  animation: header linear forwards;
-}
-
-@keyframes header {
-  99% {
-    opacity: 0;
-    transform: scale(1.3) translateY(300px);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1);
-  }
-}
-
 .menu {
   padding-top: 30px;
 }
@@ -459,7 +444,6 @@ span.circle {
 .services .row > div {
   opacity: 0;
   animation: translateUp linear forwards;
-  animation-timeline: view();
   animation-range-start: 150px;
 }
 
