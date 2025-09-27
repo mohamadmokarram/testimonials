@@ -50,7 +50,7 @@ body {
 }
 
 .header {
-  background-image: url(../images/front-page-header.jpg);
+  background-image: url("../images/front-page-header.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -59,10 +59,12 @@ body {
   padding-bottom: 180px;
   object-fit: cover;
   transition-duration: 1s;
-  animation: header linear forwards;
   transform-origin: top;
-  animation-timeline: scroll();
   animation-range-end: 600px;
+}
+
+.header-animation {
+  animation: header linear forwards;
 }
 
 @keyframes header {
@@ -171,7 +173,6 @@ body {
   transform: translateY(50px);
   opacity: 0;
   animation: getup 0.5s linear forwards;
-  animation-timeline: view();
   animation-range: 25% 40%;
 }
 
@@ -179,7 +180,6 @@ body {
   transform: translateY(20px);
   opacity: 0;
   animation: teamanimate 0.5s linear forwards;
-  animation-timeline: view();
   animation-range: 20% 35%;
 }
 
@@ -322,7 +322,6 @@ span.circle {
     opacity: 0;
     display: block;
     animation: projects linear forwards;
-    animation-timeline: view();
     /* animation-range-start: 300px; */
     animation-range-end: 500px;
   }
@@ -1027,4 +1026,12 @@ figure {
       }
     }
   }
+}
+
+.timeline-view {
+  animation-timeline: view();
+}
+
+.timeline-scroll {
+  animation-timeline: scroll();
 }
